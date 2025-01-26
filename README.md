@@ -13,13 +13,19 @@ KatoolinV3 is a modernized version of the original Katoolin by LionSec, designed
 - A Debian-based Linux system (e.g., Ubuntu or Debian)
 - Python 3.6+ installed
 
-## Installation
+### Installation
 1. Clone the repository:
+   
    git clone https://github.com/bisesdulal16/KatoolinV3.git
+   
    cd KatoolinV3
-2. Run the script:
+   
+3. Run the script:
+   
    python3 katoolinv3.py
-4. Ensure you have root privileges:
+
+5. Ensure you have root privileges:
+   
    sudo python3 katoolinv3.py
 
 ## Usage
