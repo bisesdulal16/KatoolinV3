@@ -2,6 +2,7 @@
 
 KatoolinV3 is a modernized version of the original Katoolin by LionSec, designed to install and manage Kali Linux tools on a Debian-based system. This updated version ensures compatibility with Python 3, offering an improved user interface, expanded tool categories, and better error handling. It provides an easy way to add the Kali Linux repository and install tools categorized by their use cases. Additionally, this version replaces outdated dependencies (e.g., `python-distorm3` with `python3-distorm3`) and features enhanced repository management.
 
+
 ## Features
 - Install tools by category (e.g., Information Gathering, Vulnerability Analysis, Wireless Attacks, etc.)
 - Search for tools across categories
@@ -14,19 +15,31 @@ KatoolinV3 is a modernized version of the original Katoolin by LionSec, designed
 - Python 3.6+ installed
 
 ### Installation
-1. Clone the repository:
-   
-   git clone https://github.com/bisesdulal16/KatoolinV3.git
-   
-   cd KatoolinV3
-   
-3. Run the script:
-   
-   python3 katoolinv3.py
+1. ***Switch to root***:
 
-5. Ensure you have root privileges:
+      sudo su
    
-   sudo python3 katoolinv3.py
+2. ***Clone the repository***:
+   
+      git clone https://github.com/bisesdulal16/KatoolinV3.git
+   
+   
+3. ***Navigate to the cloned directory***:
+   
+      cd KatoolinV3
+
+4. ***Copy the script to /usr/bin/***:
+   
+      sudo cp katoolinv3.py /usr/bin/katoolinv3
+   
+5. ***Make the script executable***:
+
+      sudo chmod +x /usr/bin/katoolinv3
+   
+6. ***Run the script***:
+
+      sudo katoolinv3
+   
 
 ## Usage
 
